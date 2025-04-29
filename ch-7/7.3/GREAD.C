@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int n;
+	char grade;
+	clrscr();
+	printf("enter your mark : ");
+	scanf("%d",&n);
+
+	(n>90)?grade='A':
+	(n>=75)?grade='b':
+	(n>=60)?grade='c':
+	(n>=50)?grade='d':
+	(n>=35)?grade='e':
+	(n>=0)?grade='f':printf("you are fail");
+	printf("grade:%c",grade);
+
+
+	switch(grade){
+		case 'A':
+		clrscr();
+		printf("%c Exlent work:",grade);
+		break;
+
+
+	}
+	getch();
+}
+
+

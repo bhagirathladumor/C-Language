@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<conio.h>
+#define p printf
+#define s scanf
+
+
+int main()
+{
+	int n, last,sum fast;
+
+	p("Enter the number:");
+	s("%d",&n);
+
+	last=n%10;
+
+	while (fast>9)
+		{
+		   fast=n/10;
+		}
+
+		sum=fast+last;
+		p("Sum of 1st and last digit=%d",sum);
+
+	getch();
+
+}
