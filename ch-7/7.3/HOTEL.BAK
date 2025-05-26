@@ -40,13 +40,11 @@ main()
 
 			case 'B':
 			case 'b':
-			clrscr();
 			printf("your order is paneer handi ready\n");
 			break;
 
 			case 'C':
 			case 'c':
-			clrscr();
 			printf("your order is butter paneer ready\n");
 
 
@@ -59,7 +57,7 @@ main()
 		clrscr();
 		printf("south indian menu\n");
 
-		printf("press A for dhosa\n");
+		printf(" press A for dhosa\n");
 		printf("press B for eddali\n");
 		printf("press C for rasam\n");
 
@@ -76,13 +74,11 @@ main()
 
 			case 'B':
 			case 'b':
-			clrscr();
 			printf("your order is eddali ready\n");
 			break;
 
 			case 'C':
 			case 'c':
-			clrscr();
 			printf("your order is rasam ready\n");
 
 
@@ -95,7 +91,7 @@ main()
 		clrscr();
 		printf("gujarati menu\n");
 
-		printf("press A for ras puri\n");
+		printf(" press A for ras puri\n");
 		printf("press B for khaman dhokla\n");
 		printf("press C for jalebi fafda\n");
 
