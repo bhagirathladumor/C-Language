@@ -4,7 +4,6 @@ main()
 {
 	int n;
 	char grade;
-	clrscr();
 	printf("enter your mark : ");
 	scanf("%d",&n);
 
@@ -19,31 +18,28 @@ main()
 
 	switch(grade){
 		case 'A':
-		clrscr();
 		printf("%c Exlent work:",grade);
 		break;
 		case 'B':
-		clrscr();
+		
 		printf("%c Well done:",grade);
 		break;
 		case 'C':
-		clrscr();
+		
 		printf("%c Good Job:",grade);
 		break;
 		case 'D':
-		clrscr();
+		
 		printf("%c You are just passed but you could do better:",grade);
 		break;
 		case 'E':
-		clrscr();
+		
 		printf("%c just pass",grade);
 		break;
 		case 'F':
-		clrscr();
+		
 		printf("%c sorry you are fail",grade);
 		break;
-
-
 
 	}
 	getch();
